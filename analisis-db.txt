@@ -1,0 +1,32 @@
+PRODUCT
+1. Product Name
+2. Product Price
+3. Description Product 
+4. Slug
+5. Soft Deletes
+
+PRODUCT GALLERIES
+1. Relation to Product
+2. Pict URL
+3. Is Featured
+4. Soft Deletes
+
+CART
+1. Relation to User
+2. Relation to Product
+
+TRANSACTION
+1. Relation to User
+2. Customer Personal Info
+3. Courier Info
+4. Purchase Info
+5. Total Price
+6. Status
+
+TRANSACTION ITEMS
+1. Relation to User
+2. Relation to Product
+3. Relation to Transaction
+
+User
+1. Roles (Admins/User)
