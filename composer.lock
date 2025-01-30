@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bfcd65392af62d0838580123fbeeb9db",
+    "content-hash": "78b5d0f80e0f6443be2ea26137e380f6",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1492,16 +1492,16 @@
         },
         {
             "name": "laravel/jetstream",
-            "version": "v4.2.2",
+            "version": "v4.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/jetstream.git",
-                "reference": "7a11a4fb1426855b7132900af5c113a684b820cc"
+                "reference": "1cb2b30664d818491b3193ccbdd97758fa5b60fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/jetstream/zipball/7a11a4fb1426855b7132900af5c113a684b820cc",
-                "reference": "7a11a4fb1426855b7132900af5c113a684b820cc",
+                "url": "https://api.github.com/repos/laravel/jetstream/zipball/1cb2b30664d818491b3193ccbdd97758fa5b60fc",
+                "reference": "1cb2b30664d818491b3193ccbdd97758fa5b60fc",
                 "shasum": ""
             },
             "require": {
@@ -1523,13 +1523,13 @@
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "4.x-dev"
-                },
                 "laravel": {
                     "providers": [
                         "Laravel\\Jetstream\\JetstreamServiceProvider"
                     ]
+                },
+                "branch-alias": {
+                    "dev-master": "4.x-dev"
                 }
             },
             "autoload": {
@@ -1557,7 +1557,7 @@
                 "issues": "https://github.com/laravel/jetstream/issues",
                 "source": "https://github.com/laravel/jetstream"
             },
-            "time": "2024-01-17T00:49:40+00:00"
+            "time": "2024-02-29T17:10:06+00:00"
         },
         {
             "name": "laravel/prompts",

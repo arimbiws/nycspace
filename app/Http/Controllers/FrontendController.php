@@ -11,6 +11,17 @@ class FrontendController extends Controller
         return view('pages.frontend.index');
     }
 
+    public function login(Request $request)
+    {
+        return view('auth.login');
+    }
+
+    public function register(Request $request)
+    {
+        return view('auth.register');
+    }
+
+
     public function details(Request $request, $slug)
     {
         return view('pages.frontend.details');
